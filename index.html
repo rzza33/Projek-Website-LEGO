@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Larsseit:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <a href="#">Track Order</a>
+            <a href="#">Store Location</a>
+            <div class="language-selector">
+                <select>
+                    <option>English</option>
+                    <option>Indonesia</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/lego icon 2.png" alt="Bricks Active LEGO Certified Store">
+            </div>
+            <div class="search-bar">
+                <button type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a href="#">EXCLUSIVES</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">SHOP BY THEME</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-grid">
+                            <div class="column">
+                                <a href="#" class="theme-item">
+                                    <div class="theme-image animal-crossing">
+                                        <div class="theme-logo">
+                                            <img src="images/lego-logo.png" alt="LEGO">
+                                            <img src="images/animal-crossing-logo.png" alt="Animal Crossing" class="theme-brand">
+                                        </div>
+                                        <div class="theme-characters">
+                                            <img src="images/animal-crossing-characters.png" alt="Animal Crossing Characters" class="characters">
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">LEGO® Botanicals</a>
+                                <a href="#">LEGO® City</a>
+                                <a href="#">LEGO® Classic</a>
+                                <a href="#">LEGO® Creator 3IN1</a>
+                                <a href="#">LEGO® Disney Princess</a>
+                                <a href="#">LEGO® Duplo</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">LEGO® Friends</a>
+                                <a href="#">LEGO® Harry Potter TM</a>
+                                <a href="#">LEGO® Home Decor</a>
+                                <a href="#">LEGO® Icons</a>
+                                <a href="#">LEGO® Ideas</a>
+                                <a href="#">LEGO® Keychain & Keylights</a>
+                                <a href="#">LEGO® Minecraft</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">LEGO® Ninjago</a>
+                                <a href="#">LEGO® Speed Champions</a>
+                                <a href="#">LEGO® Star Wars</a>
+                                <a href="#">LEGO® Super Heroes</a>
+                                <a href="#">LEGO® Super Mario</a>
+                                <a href="#">LEGO® Technic</a>
+                                <a href="#">Others</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">SHOP BY AGE</a>
+                    <div class="dropdown-content age-dropdown">
+                        <div class="age-menu">
+                            <a href="#">Age 1 To 4</a>
+                            <a href="#">Age 5 To 8</a>
+                            <a href="#">Age 9 To 11</a>
+                            <a href="#">Age 12 and Above</a>
+                            <a href="#">All Products</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#">HARD TO FIND</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Main content here -->
+        </div>
+    </main>
+
+    <!-- Pure CSS Slider with Navigation -->
+    <div class="slider-container">
+        <!-- Navigation Buttons -->
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <input type="radio" name="slider" id="slide5">
+        <input type="radio" name="slider" id="slide6">
+        <input type="radio" name="slider" id="slide7">
+        <input type="radio" name="slider" id="slide8">
+
+        <!-- Slider Content -->
+        <div class="slider">
+            <img src="images/slider1.png" alt="New Arrivals">
+            <img src="images/slider2.png" alt="Ramadan Voucher">
+            <img src="images/slider3.png" alt="Ninjago City Workshops">
+            <img src="images/slider4.png" alt="Ramadan Special Promo">
+            <img src="images/slider5.png" alt="Buy 2 Get 20% Off">
+            <img src="images/slider6.png" alt="Ideas Icons Promo">
+            <img src="images/slider7.png" alt="Ninjago Dragons Rising">
+            <img src="images/slider8.png" alt="Technic Ferrari">
+        </div>
+
+        <!-- Arrow Navigation - Updated with SVG arrows -->
+        <div class="slider-arrows">
+            <!-- Previous arrows -->
+            <label for="slide1" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide2" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide3" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide4" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide5" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide6" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide7" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            <label for="slide8" class="arrow prev">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </label>
+            
+            <!-- Next arrows -->
+            <label for="slide2" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide3" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide4" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide5" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide6" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide7" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide8" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+            <label for="slide1" class="arrow next">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                </svg>
+            </label>
+        </div>
+
+        <!-- Navigation Dots -->
+        <div class="slider-nav">
+            <label for="slide1" class="nav-btn"></label>
+            <label for="slide2" class="nav-btn"></label>
+            <label for="slide3" class="nav-btn"></label>
+            <label for="slide4" class="nav-btn"></label>
+            <label for="slide5" class="nav-btn"></label>
+            <label for="slide6" class="nav-btn"></label>
+            <label for="slide7" class="nav-btn"></label>
+            <label for="slide8" class="nav-btn"></label>
+        </div>
+    </div>
+
+    <!-- LEGO Themes -->
+    <section class="lego-themes">
+        <div class="container">
+            <div class="section-header">
+                <h2>LEGO<sup>®</sup> Themes</h2>
+                <a href="#" class="see-all">See All <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="themes-grid">
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legoideas.jpg" alt="LEGO Ideas">
+                        <div class="theme-label">IDEAS™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes14.png" alt="LEGO Minecraft">
+                        <div class="theme-label">MINECRAFT™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes16.png" alt="LEGO Speed Champions">
+                        <div class="theme-label">SPEED CHAMPIONS</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes13.png" alt="LEGO Marvel">
+                        <div class="theme-label">MARVEL™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes17.png" alt="LEGO Star Wars">
+                        <div class="theme-label">STAR WARS™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes19.png" alt="LEGO Technic">
+                        <div class="theme-label">TECHNIC™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes1.png" alt="LEGO Animal Crossing">
+                        <div class="theme-label">ANIMAL CROSSING™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes4.png" alt="LEGO City">
+                        <div class="theme-label">CITY</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes7.png" alt="LEGO Disney">
+                        <div class="theme-label">DISNEY™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes10.png" alt="LEGO Harry Potter">
+                        <div class="theme-label">HARRY POTTER™</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes9.png" alt="LEGO Friends">
+                        <div class="theme-label">FRIENDS</div>
+                    </a>
+                </div>
+                <div class="theme-card">
+                    <a href="#">
+                        <img src="images/legothemes14.png" alt="LEGO Ninjago">
+                        <div class="theme-label">NINJAGO®</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <a href="#" class="banner-link">
+                <img src="images/BD9D88C96EE2B0E8397D5EC0FB8BF349.png" alt="Best LEGO Gifts - 20% Off Selected Sets" class="banner-image">
+            </a>
+        </div>
+    </section>
+
+    <!-- Product Slider -->
+    <section class="product-slider">
+        <div class="container">
+            <div class="section-header">
+            </div>
+            <div class="slider-wrapper">
+                <div class="product-grid" tabindex="0">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 25%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/friends product 2.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® FRIENDS</div>
+                            <h3 class="product-name">LEGO® Friends Cotton Candy Stand and Scooter - 42643</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/friends product.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® FRIENDS</div>
+                            <h3 class="product-name">LEGO® Friends Paisley's Room - 42647</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 21%</div>
+                    <a href="#" class="product-link">
+                        <img src="images/mclaren car.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CITY</div>
+                            <h3 class="product-name">LEGO® City F1® Driver with McLaren Race Car - 60442</h3>
+                            <div class="product-price">Rp 239.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="images/city offroad 4x4.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CITY</div>
+                            <h3 class="product-name">LEGO® City Off-road 4x4 Mountain Truck - 60447</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224356.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CITY</div>
+                            <h3 class="product-name">LEGO® City Donut Truck - 60452</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224402.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CITY</div>
+                            <h3 class="product-name">LEGO® City F1® Williams Racing
+                                & Haas F1 Race Cars - 60464</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 7 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 25%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224411.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® NINJAGO</div>
+                            <h3 class="product-name">LEGO® Ninjago Zane's Battle
+                                Suit Mech - 71827</h3>
+                            <div class="product-price">Rp 199.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 8 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224416.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® NINJAGO</div>
+                            <h3 class="product-name">LEGO® Ninjago Lloyd's Green
+                                Forest Dragon - 71829</h3>
+                            <div class="product-price">Rp 399.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 9 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 22%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224422.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® DISNEY</div>
+                            <h3 class="product-name">LEGO® Disney Princess
+                                Arendelle Frozen Castle -
+                                43265</h3>
+                            <div class="product-price">Rp 599.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 10 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224429.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® SUPER HEROES MARVEL</div>
+                            <h3 class="product-name">LEGO® Super Heroes Marvel
+                                Spider-Man Mech vs.Anti-
+                                Venom - 76308</h3>
+                            <div class="product-price">Rp 299.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 11 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 22%</div>
+                    <a href="#" class="product-link">
+                        <img src="images/Screenshot 2025-04-13 224433.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® JURASSIC</div>
+                            <h3 class="product-name">LEGO® Jurassic World Little
+                                Eatie: T. rex - 76967</h3>
+                            <div class="product-price">Rp 499.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 12 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 25%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224439.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CLASSIC</div>
+                            <h3 class="product-name">LEGO® Classic Creative Food
+                                Friends - 11039</h3>
+                            <div class="product-price">Rp 199.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 13 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 25%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224443.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® MINECRAFT</div>
+                            <h3 class="product-name">LEGO® Minecraft The Nether
+                                Lava Battle - 21266</h3>
+                            <div class="product-price">Rp 199.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 14 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 24%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224452.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CREATOR</div>
+                            <h3 class="product-name">LEGO® Creator Space Robot -
+                                31164</h3>
+                            <div class="product-price">Rp 499.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 15 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 25%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224457.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® CREATOR</div>
+                            <h3 class="product-name">LEGO® Creator Typewriter with
+                                Flowers - 31169</h3>
+                            <div class="product-price">Rp 599.000</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Product Card 16 -->
+                <div class="product-card">
+                    <div class="discount-badge">EXTRA DISC 23%</div>
+                    <a href="#" class="product-link">
+                        <img src="/images/Screenshot 2025-04-13 224501.png" alt="LEGO Product" class="product-image">
+                        <div class="product-info">
+                            <div class="product-theme">LEGO® TECHNIC</div>
+                            <h3 class="product-name">LEGO® Technic Monster JamTM
+                                ThunderROARUsTM Pull-Back -
+                                42200</h3>
+                            <div class="product-price">Rp 599.000</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Navigation Arrows -->
+            <button class="nav-arrow prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-arrow next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Video Player Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <!-- <h2>LEGO® Building Tips</h2> -->
+            </div>
+            <div class="video-container">
+                <video 
+                    width="103%" 
+                    height="500" 
+                    controls>
+                    <source src="videos/149B3C51B3F5E69878D62FB607642B6C.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW PRODUCTS Section -->
+    <section class="new-products-section">
+        <div class="container">
+            <div class="new-products-banner">
+                <img src="/images/D1FEC869DA77BF2A5DE74FE44EB8BE69-removebg-preview (1).png" alt="NEW PRODUCTS!!" class="new-products-heading">
+            </div>
+            <div class="new-products-grid">
+                <!-- First set of products -->
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/1C18F7CE4897DA8B557C9A1FA24E8F60.png" alt="LEGO Speed Champions Oracle Red Bull Racing">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/236662C8ECED3A81EC002C769B7B0F0C.png" alt="LEGO Speed Champions Mercedes AMG F1">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/347BC60CF2E07B2200BE8CE526FEFA5B.png" alt="LEGO Speed Champions Aston Martin Aramco F1">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/7EBE6A04ACF16AB01BAC6E2BDC11181C.png" alt="LEGO Speed Champions Visa Cash App RB VCARB 01">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/A07F8361D551A500BB1664033601E4A7.png" alt="LEGO Speed Champions KICK Sauber F1 Team">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/A1702AB1079E7D0AF26E60BFAD54DA86.png" alt="LEGO Speed Champions BWT Alpine F1 Team">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/ACCBAD1EC4A1C052905D0EB083644EBE.png" alt="LEGO Speed Champions Ferrari">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/BC2FB775525B3B6E629B7CDDC69ACAE4.png" alt="LEGO Speed Champions Porsche">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/CEC6E91897FA81DAB6B7054017611E9E.png" alt="LEGO Speed Champions McLaren">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/E48E709B383D55692DC1F34F11F94868.png" alt="LEGO Speed Champions Lamborghini">
+                    </a>
+                </div>
+                
+                <!-- Duplicate set for infinite scroll effect -->
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/1C18F7CE4897DA8B557C9A1FA24E8F60.png" alt="LEGO Speed Champions Oracle Red Bull Racing">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/236662C8ECED3A81EC002C769B7B0F0C.png" alt="LEGO Speed Champions Mercedes AMG F1">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/347BC60CF2E07B2200BE8CE526FEFA5B.png" alt="LEGO Speed Champions Aston Martin Aramco F1">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/7EBE6A04ACF16AB01BAC6E2BDC11181C.png" alt="LEGO Speed Champions Visa Cash App RB VCARB 01">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/A07F8361D551A500BB1664033601E4A7.png" alt="LEGO Speed Champions KICK Sauber F1 Team">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/A1702AB1079E7D0AF26E60BFAD54DA86.png" alt="LEGO Speed Champions BWT Alpine F1 Team">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/ACCBAD1EC4A1C052905D0EB083644EBE.png" alt="LEGO Speed Champions Ferrari">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/BC2FB775525B3B6E629B7CDDC69ACAE4.png" alt="LEGO Speed Champions Porsche">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/CEC6E91897FA81DAB6B7054017611E9E.png" alt="LEGO Speed Champions McLaren">
+                    </a>
+                </div>
+                <div class="new-product">
+                    <a href="#">
+                        <img src="/images/E48E709B383D55692DC1F34F11F94868.png" alt="LEGO Speed Champions Lamborghini">
+                    </a>
+                </div>
+            </div>
+            <div class="see-more-container">
+                <a href="#" class="see-more-button">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- About Column -->
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About MAPCLUB</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Care Column -->
+                <div class="footer-column">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+
+                <!-- Top Sales Column -->
+                <div class="footer-column">
+                    <h3>Top Sales</h3>
+                    <ul>
+                        <li><a href="#">LEGO® Icon Orchid - 10311</a></li>
+                        <li><a href="#">LEGO® Icons Bouquet of Roses building kit - 10328</a></li>
+                        <li><a href="#">LEGO® Speed Champions McLaren Formula 1 Race Car - 76919</a></li>
+                        <li><a href="#">LEGO® NINJAGO® Cole's Elemental Earth Mech - 71806</a></li>
+                        <li><a href="#">LEGO® Space Shuttle - 31134</a></li>
+                    </ul>
+                </div>
+
+                <!-- Popular Links Column -->
+                <div class="footer-column">
+                    <h3>Popular Links</h3>
+                    <ul>
+                        <li><a href="#">LEGO® Botanicals</a></li>
+                        <li><a href="#">LEGO® City</a></li>
+                        <li><a href="#">LEGO® Creator</a></li>
+                        <li><a href="#">LEGO® Duplo</a></li>
+                        <li><a href="#">LEGO® Friends</a></li>
+                        <li><a href="#">LEGO® Super Heroes</a></li>
+                        <li><a href="#">LEGO® Technic</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Section -->
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to be the first to hear about our exclusive offers and latest arrivals.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">➔</button>
+                    </div>
+                    <div class="newsletter-consent">
+                        <input type="checkbox" id="consent">
+                        <label for="consent">By signing up, you agree to receive any communications from us and you have read our <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>.</label>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>LEGO, the LEGO logo, the Minifigure, DUPLO, the FRIENDS logo, the MINIFIGURES logo, the HIDDEN SIDE logo, MINDSTORMS, NINJAGO, VIDIYO and NEXO KNIGHTS are trademarks of the LEGO Group. Used with permission.</p>
+            <p>2023 the LEGO Group.</p>
+        </div>
+    </footer>
+
+    <!-- Add this near the end of your body tag -->
+    <div class="floating-buttons">
+        <button class="chat-button" onclick="toggleChat()">
+            <i class="fas fa-comments"></i>
+        </button>
+        <button class="scroll-top" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Chat popup -->
+    <div class="chat-popup" id="chatPopup">
+        <div class="chat-header">
+            <h4>Chat with us</h4>
+            <button class="close-chat" onclick="toggleChat()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-body">
+            <!-- Add your chat widget content here -->
+            <p>How can we help you today?</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Product Slider Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const productGrid = document.querySelector('.product-grid');
+            const prevBtn = document.querySelector('.product-slider .nav-arrow.prev');
+            const nextBtn = document.querySelector('.product-slider .nav-arrow.next');
+            const cardWidth = 240; // Width of each product card
+            const gap = 15; // Gap between cards
+            
+            // Calculate scroll amount (width of one product card + gap)
+            const scrollAmount = cardWidth + gap;
+            
+            prevBtn.addEventListener('click', () => {
+                productGrid.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                productGrid.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add this script
+    // Show/hide scroll button based on scroll position
+    window.onscroll = function() {
+        const scrollBtn = document.querySelector('.scroll-top');
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollBtn.classList.add('visible');
+        } else {
+            scrollBtn.classList.remove('visible');
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    function toggleChat() {
+        const popup = document.getElementById('chatPopup');
+        popup.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
